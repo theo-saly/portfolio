@@ -1,4 +1,9 @@
+"use client";
+
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+
+emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "");
 
 export default function Contact() {
   const [status, setStatus] = useState("");
@@ -23,23 +28,28 @@ export default function Contact() {
     e.preventDefault();
 
     const form = e.currentTarget;
-    const data = new FormData(form);
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
 
     setStatus("Envoi en cours...");
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        body: data,
-      });
+      const response = await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "",
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "",
+        {
+          from_name: name,
+          from_email: email,
+          message: message,
+        }
+      );
 
-      const result = await response.json();
-
-      if (response.ok) {
+      if (response.status === 200) {
         setStatus("Message envoyé !");
         form.reset();
       } else {
-        setStatus(result.error || "Erreur lors de l'envoi.");
+        setStatus("Erreur lors de l'envoi.");
       }
     } catch (err) {
       setStatus("Une erreur est survenue.");
