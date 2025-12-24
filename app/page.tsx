@@ -30,6 +30,7 @@ import Digitallia from "./projets/Digitallia";
 import Meteor from "./projets/Meteor";
 import Quantium from "./projets/Quantium";
 import Salink from "./projets/Salink";
+import Ottfashion from "./projets/Ottfashion";
 import Backrooms from "./projets/Backrooms";
 import Aquabion from "./projets/Aquabion";
 import Cuxdesign from "./projets/Cuxdesign";
@@ -203,9 +204,10 @@ export default function Page() {
 
             <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }}
                transition={{ duration: 0.5, delay: 0.45 }} viewport={{ once: true, amount: 0 }}>
-               <Salink />
+               <Ottfashion />
             </motion.div>
 
+            <Salink />
             <Backrooms />
             <Aquabion />
             <Cuxdesign />
@@ -269,9 +271,11 @@ export default function Page() {
          width: "100vw",
          height: "100svh",
       }}>
+         
+         {/* <SplashCursor />
          <ShaderFx>
             <Playground />
-         </ShaderFx>
+         </ShaderFx> */}
       </div>
       <div
          className="flex border-bordercolor flex-row justify-center items-start w-full h-full text-white pointer-events-auto overflow-y-auto overflow-x-hidden px-[2vw] md:px-[1.5vw] xl:px-[1vw] pt-[2vw] md:pt-[1.5vw] xl:pt-[1vw]">
@@ -340,6 +344,7 @@ export default function Page() {
                <Quantium />
             </motion.div>
 
+            <Ottfashion />
             <Salink />
             <Backrooms />
             <Aquabion />
@@ -452,6 +457,7 @@ export default function Page() {
             </motion.div>
 
             <Quantium />
+            <Ottfashion />
             <Salink />
             <Backrooms />
             <Aquabion />

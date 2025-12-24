@@ -6,7 +6,7 @@ return (
         <p className="text-base text-lightgray mb-3">
             Salut, je m’appelle
             <span className="text-white"> Théo</span>, je suis âgé de
-            <span className="text-white"> 20 ans</span> basé à
+            <span className="text-white"> 21 ans</span> basé à
             <span className="text-white"> Strasbourg</span> et passionné par le
             <span className="text-white"> web</span> et les
             <span className="text-white"> nouvelles technologies</span>. J’ai eu l’opportunité de travailler sur de

@@ -39,6 +39,8 @@ export default function Intro() {
                                 contact@theo-saly.com
                             </span>
                         </a>
+                        
+                        {/* 
                         <a
                             href="tel:0771874197"
                             className="mail group flex items-center justify-start w-9 hover:w-35 transition-all duration-300 rounded-full border border-bordercolor bg-mediumgray pointer-events-auto pl-[9px] h-9 overflow-hidden"
@@ -53,6 +55,8 @@ export default function Intro() {
                                 07 71 87 41 97
                             </span>
                         </a>
+                        */}
+
                         <a href="https://www.linkedin.com/in/theo-saly" target="_bank"
                             className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                             aria-label="LinkedIn">
