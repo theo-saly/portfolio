@@ -1,7 +1,7 @@
 export default function Musique() {
 return (
 <>
-    <section className="bg-mediumgray bg-opacity-60 backdrop-blur-md p-4 rounded-2xl border-1 border-bordercolor m-[2vw] md:m-[1.5vw] xl:m-[1vw]">
+    <section className="bg-mediumgray bg-opacity-60 backdrop-blur-md p-4 rounded-2xl border-1 border-border m-[2vw] md:m-[1.5vw] xl:m-[1vw]">
         <h2 className="text-xl mb-3 nohemi font-medium">Musique Favorite</h2>
         <div className="flex flex-col">
             <div className="grayscale hover:grayscale-0 transition duration-300 overflow-hidden">
