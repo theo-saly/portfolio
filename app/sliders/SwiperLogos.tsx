@@ -26,47 +26,47 @@ export default function SwiperLogos() {
         >
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-17" src="logos/extremdrift.png" alt="" />
+                    <img className="w-17" src="/logos/extremdrift.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-17" src="logos/ottfashion.png" alt="" />
+                    <img className="w-17" src="/logos/ottfashion.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-16" src="logos/aquabion.png" alt="" />
+                    <img className="w-16" src="/logos/aquabion.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-16" src="logos/marketify.png" alt="" />
+                    <img className="w-16" src="/logos/marketify.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-12" src="logos/digitallia.png" alt="" />
+                    <img className="w-12" src="/logos/digitallia.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-16" src="logos/meteor.png" alt="" />
+                    <img className="w-16" src="/logos/meteor.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-24" src="logos/nathanmaurer.png" alt="" />
+                    <img className="w-24" src="/logos/nathanmaurer.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-15" src="logos/cux-design.png" alt="" />
+                    <img className="w-15" src="/logos/cux-design.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
-                    <img className="w-25" src="logos/salink.png" alt="" />
+                    <img className="w-25" src="/logos/salink.png" alt="" />
                 </div>
             </SwiperSlide>
         </Swiper>

@@ -36,7 +36,7 @@ return (
         </p>
         
         <br />
-        <img className="w-40 mt-2" src="autres/signature.png" alt="" />
+        <img className="w-40 mt-2" src="/autres/signature.png" alt="" />
     </section>
 </>
 );

@@ -68,7 +68,7 @@ const isMobileTablet = typeof window !== "undefined" ? window.innerWidth < 1280 
             </div>
 
             <img className="h-full object-cover object-top rounded-2xl w-full absolute top-0 left-0 opacity-80 z-0"
-                src="images-projet/website-nathanmaurer.jpg" alt="" />
+                src="/images-projet/website-nathanmaurer.jpg" alt="" />
         </section>
     </>
     );

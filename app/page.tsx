@@ -24,6 +24,7 @@ import Formations from "./sections/Formations";
 import Photos from "./sections/Photos";
 import Map from "./sections/Map";
 import Contact from "./sections/Contact";
+import Legal from "./sections/Legal";
 
 // Components Projets
 import Digitallia from "./projets/Digitallia";
@@ -229,6 +230,11 @@ export default function Page() {
                transition={{ duration: 0.5}} viewport={{ once: true, amount: 0.1 }}>
                <Photos />
             </motion.div>
+
+            <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.5}} viewport={{ once: true, amount: 0 }}>
+               <Legal />
+            </motion.div>
          </div>
 
          <div className="flex w-1/3 flex-col">
@@ -395,6 +401,11 @@ export default function Page() {
                <Musique />
             </motion.div>
 
+            <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.5}} viewport={{ once: true, amount: 0.1 }}>
+               <Legal />
+            </motion.div>
+
          </div>
       </div>
    </>
@@ -503,6 +514,11 @@ export default function Page() {
          <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5}}
             viewport={{ once: true, amount: 0.1 }}>
             <Photos />
+         </motion.div>
+
+         <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5}}
+            viewport={{ once: true, amount: 0.1 }}>
+            <Legal />
          </motion.div>
       </div>
    </>
