@@ -43,13 +43,13 @@ export default function Contact() {
   };
 
   return (
-    <section className="flex flex-col justify-between bg-mediumgray bg-opacity-60 backdrop-blur-md p-4 rounded-2xl border-1 border-border m-[2vw] md:m-[1.5vw] xl:m-[1vw]">
+    <section className="flex flex-col justify-between bg-mediumgray bg-opacity-60 backdrop-blur-md p-4 rounded-2xl border-1 border-bordercolor m-[2vw] md:m-[1.5vw] xl:m-[1vw]">
       <h2 className="text-xl mb-2 nohemi font-medium">Contact</h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-2">
-        <input type="text" name="name" placeholder="Votre nom*" className="rounded-md px-2 py-1 bg-darkgray text-white border border-border pointer-events-auto" required />
+        <input type="text" name="name" placeholder="Votre nom*" className="rounded-md px-2 py-1 bg-darkgray text-white border border-bordercolor pointer-events-auto" required />
         
-        <input type="email" name="email" placeholder="Votre email*" className="rounded-md px-2 py-1 bg-darkgray text-white border border-border pointer-events-auto" required />
-        <textarea name="message" placeholder="Votre message*" className="rounded-md px-2 py-1 bg-darkgray text-white border border-border pointer-events-auto" rows={6} required />
+        <input type="email" name="email" placeholder="Votre email*" className="rounded-md px-2 py-1 bg-darkgray text-white border border-bordercolor pointer-events-auto" required />
+        <textarea name="message" placeholder="Votre message*" className="rounded-md px-2 py-1 bg-darkgray text-white border border-bordercolor pointer-events-auto" rows={6} required />
         
         <button
           type="submit"

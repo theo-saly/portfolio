@@ -18,7 +18,7 @@ export default function Intro() {
 
     return (
         <>
-            <section className="md:min-h-70 xl:min-h-62 flex flex-col justify-between bg-mediumgray bg-opacity-60 backdrop-blur-md p-4 rounded-2xl border-1 border-border m-[2vw] md:m-[1.5vw] xl:m-[1vw]">
+            <section className="md:min-h-70 xl:min-h-62 flex flex-col justify-between bg-mediumgray bg-opacity-60 backdrop-blur-md p-4 rounded-2xl border-1 border-bordercolor m-[2vw] md:m-[1.5vw] xl:m-[1vw]">
                 <p className="text-2xl nohemi font-extralight">
                     <img src="emojys/emojy-hand.png" alt="Salut" className="inline w-6 h-6 mr-2 align-text-bottom mb-0.5 animatewave pointer-events-auto" />
                     <span className="font-bold" >Salut</span>, moi c&apos;est <span className="font-bold" >Théo</span> ! Je suis <span className="font-bold" >développeur web</span> sur Strasbourg, spécialisé depuis <span className="font-bold" >5 ans</span> dans la <span className="font-bold" >création de sites</span> & <span className="font-bold" >d&apos;applications web</span> sur mesure.
@@ -27,7 +27,7 @@ export default function Intro() {
                     <div className="flex justify-between items-center gap-2">
                         <a
                             href="mailto:contact@theo-saly.com"
-                            className="mail group flex items-center justify-start w-9 hover:w-48 transition-all duration-300 rounded-full border border-border bg-mediumgray pointer-events-auto pl-[9px] h-9 overflow-hidden"
+                            className="mail group flex items-center justify-start w-9 hover:w-48 transition-all duration-300 rounded-full border border-bordercolor bg-mediumgray pointer-events-auto pl-[9px] h-9 overflow-hidden"
                             aria-label="Envoyer un email à contact@theo-saly.com"
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
@@ -41,7 +41,7 @@ export default function Intro() {
                         </a>
                         <a
                             href="tel:0771874197"
-                            className="mail group flex items-center justify-start w-9 hover:w-35 transition-all duration-300 rounded-full border border-border bg-mediumgray pointer-events-auto pl-[9px] h-9 overflow-hidden"
+                            className="mail group flex items-center justify-start w-9 hover:w-35 transition-all duration-300 rounded-full border border-bordercolor bg-mediumgray pointer-events-auto pl-[9px] h-9 overflow-hidden"
                             aria-label="Appeler le 07 71 87 41 97"
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
@@ -54,17 +54,17 @@ export default function Intro() {
                             </span>
                         </a>
                         <a href="https://www.linkedin.com/in/theo-saly" target="_bank"
-                            className="rounded-full border border-border p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
+                            className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                             aria-label="LinkedIn">
                             <FaLinkedinIn/>
                         </a>
                         <a href="https://www.malt.fr/profile/theosaly" target="_bank"
-                            className="rounded-full border border-border p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
+                            className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                             aria-label="Malt">
                             <SiMalt/>
                         </a>
-                        <a href="https://github.com/TheoSly" target="_bank"
-                            className="rounded-full border border-border p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
+                        <a href="https://github.com/theo-saly" target="_bank"
+                            className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                             aria-label="GitHub">
                             <FaGithub/>
                         </a>
@@ -75,7 +75,7 @@ export default function Intro() {
                         }`}
                     >
                         <a href="download/cv-theo-saly.pdf" target="_blank"
-                            className="cv rounded-full border border-border py-2 px-4 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto flex items-center justify-center gap-2"
+                            className="cv rounded-full border border-bordercolor py-2 px-4 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto flex items-center justify-center gap-2"
                             aria-label="Télécharger le CV">
                             <FaDownload/>
                             <p className="text-sm">CV</p>

@@ -4,7 +4,7 @@ import * as THREE from "three";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useFrame, useThree, extend, useLoader } from "@react-three/fiber";
 import { useFluid } from "@/packages/use-shader-fx/src";
-import { FxMaterial } from "./FxMaterial";
+import { FxMaterial } from "../Background/FxMaterial";
 
 extend({ FxMaterial });
 

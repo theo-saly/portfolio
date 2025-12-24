@@ -64,7 +64,7 @@ portfolio/
 ### Installation
 
 ```bash
-git clone https://github.com/TheoSly/portfolio.git
+git clone https://github.com/theo-saly/portfolio.git
 cd portfolio
 npm install
 ```
@@ -114,4 +114,4 @@ Le site sera accessible sur [http://localhost:3000](http://localhost:3000).
 
 **Théo Saly**  
 💼 [theo-saly.com](https://theo-saly.com/)  
-💻 [GitHub](https://github.com/TheoSly/) — 🔗 [LinkedIn](https://www.linkedin.com/in/theo-saly)
+💻 [GitHub](https://github.com/theo-saly/) — 🔗 [LinkedIn](https://www.linkedin.com/in/theo-saly)

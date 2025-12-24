@@ -1,7 +1,7 @@
 export default function Technologies() {
 return (
 <>
-    <section className="bg-mediumgray bg-opacity-60 backdrop-blur-md p-4 rounded-2xl border-1 border-border m-[2vw] md:m-[1.5vw] xl:m-[1vw]">
+    <section className="bg-mediumgray bg-opacity-60 backdrop-blur-md p-4 rounded-2xl border-1 border-bordercolor m-[2vw] md:m-[1.5vw] xl:m-[1vw]">
         <h2 className="text-xl mb-2 nohemi font-medium">Technologies utilisés</h2>
         <h3 className="text-xs text-lightgray nohemi font-light">FRONT-END</h3>
         <div className="flex flex-wrap gap-1">

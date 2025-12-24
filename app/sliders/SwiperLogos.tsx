@@ -31,7 +31,17 @@ export default function SwiperLogos() {
             </SwiperSlide>
             <SwiperSlide className="h-40">
                 <div className="flex justify-center items-center h-full">
+                    <img className="w-17" src="logos/ottfashion.png" alt="" />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide className="h-40">
+                <div className="flex justify-center items-center h-full">
                     <img className="w-16" src="logos/aquabion.png" alt="" />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide className="h-40">
+                <div className="flex justify-center items-center h-full">
+                    <img className="w-16" src="logos/marketify.png" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className="h-40">

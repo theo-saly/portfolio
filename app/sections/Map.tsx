@@ -1,7 +1,7 @@
 export default function Map() {
 return (
 <>
-    <section className="grayscale hover:grayscale-0 focus:grayscale-0 active:grayscale-0 transition duration-300 pointer-events-auto bg-mediumgray rounded-2xl border-1 border-border m-[2vw] md:m-[1.5vw] xl:m-[1vw] relative overflow-hidden">
+    <section className="grayscale hover:grayscale-0 focus:grayscale-0 active:grayscale-0 transition duration-300 pointer-events-auto bg-mediumgray rounded-2xl border-1 border-bordercolor m-[2vw] md:m-[1.5vw] xl:m-[1vw] relative overflow-hidden">
         <a href="https://maps.app.goo.gl/mzCcK8Xv1moz3Bu3A" target="_blank">
             <img className="rounded-2xl h-60 xl:h-100 object-cover w-full" src="maps/map.jpg" alt="" />
             

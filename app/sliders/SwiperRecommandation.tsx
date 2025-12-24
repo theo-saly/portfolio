@@ -20,7 +20,7 @@ return (
     <SwiperSlide>
         <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-4">
-                <div className="rounded-full border p-2 border-border bg-mediumgray" aria-label="Envoyer un email">
+                <div className="rounded-full border p-2 border-bordercolor bg-mediumgray" aria-label="Envoyer un email">
                     <IoPerson />
                 </div>
                 <div>
@@ -29,7 +29,7 @@ return (
                 </div>
             </div>
             <a href="https://www.linkedin.com/in/theo-saly" target='_blank'
-                className="rounded-full border border-border p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
+                className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                 aria-label="Envoyer un email">
                 <FaLink />
             </a>
@@ -55,7 +55,7 @@ return (
     <SwiperSlide>
         <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-4">
-                <div className="rounded-full border p-2 border-border bg-mediumgray" aria-label="Envoyer un email">
+                <div className="rounded-full border p-2 border-bordercolor bg-mediumgray" aria-label="Envoyer un email">
                     <IoPerson />
                 </div>
                 <div>
@@ -64,7 +64,7 @@ return (
                 </div>
             </div>
             <a href="https://www.linkedin.com/in/theo-saly" target='_blank' 
-                className="rounded-full border border-border p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
+                className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                 aria-label="Envoyer un email">
                 <FaLink />
             </a>
@@ -83,7 +83,7 @@ return (
     <SwiperSlide>
         <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-4">
-                <div className="rounded-full border p-2 border-border bg-mediumgray" aria-label="Envoyer un email">
+                <div className="rounded-full border p-2 border-bordercolor bg-mediumgray" aria-label="Envoyer un email">
                     <IoPerson />
                 </div>
                 <div>
@@ -92,7 +92,7 @@ return (
                 </div>
             </div>
             <a href="https://www.malt.fr/profile/theosaly" target='_blank'
-                className="rounded-full border border-border p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
+                className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                 aria-label="Envoyer un email">
                 <FaLink />
             </a>
@@ -110,7 +110,7 @@ return (
     <SwiperSlide>
         <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-4">
-                <div className="rounded-full border p-2 border-border bg-mediumgray" aria-label="Envoyer un email">
+                <div className="rounded-full border p-2 border-bordercolor bg-mediumgray" aria-label="Envoyer un email">
                     <IoPerson />
                 </div>
                 <div>
@@ -119,7 +119,7 @@ return (
                 </div>
             </div>
             <a href="https://www.linkedin.com/in/theo-saly" target='_blank'
-                className="rounded-full border border-border p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
+                className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                 aria-label="Envoyer un email">
                 <FaLink />
             </a>
@@ -139,7 +139,7 @@ return (
     <SwiperSlide>
         <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-4">
-                <div className="rounded-full border p-2 border-border bg-mediumgray" aria-label="Envoyer un email">
+                <div className="rounded-full border p-2 border-bordercolor bg-mediumgray" aria-label="Envoyer un email">
                     <IoPerson />
                 </div>
                 <div>
@@ -148,7 +148,7 @@ return (
                 </div>
             </div>
             <a href="https://www.linkedin.com/in/theo-saly" target='_blank'
-                className="rounded-full border border-border p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
+                className="rounded-full border border-bordercolor p-2 hover:border-lightgray bg-mediumgray transition-colors duration-300 pointer-events-auto"
                 aria-label="Envoyer un email">
                 <FaLink />
             </a>

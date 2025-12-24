@@ -9,7 +9,7 @@ export default function GithubCalendar() {
 
   useEffect(() => {
     if (calendarRef.current) {
-      GitHubCalendar(calendarRef.current, "theosly", {
+      GitHubCalendar(calendarRef.current, "theo-saly", {
         responsive: true,
       });
     }

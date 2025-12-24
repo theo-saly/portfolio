@@ -32,12 +32,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <title>Théo Saly | Portfolio</title>
             <link rel="icon" href="/favicon.ico" />
          </head>
-         <body className="scroll-smooth overflow-x-hidden">
+         <body className="scroll-smooth overflow-x-hidden bg-darkgray">
             {/* Affiche le loader tant que la page n'est pas chargée */}
             {!isLoaded && <Loader onFinish={() => setIsLoaded(true)} />}
             {/* Affiche le contenu principal une fois le chargement terminé */}
             {isLoaded && (
-               <main className="overflow-y-auto overflow-x-hidden">
+               <main className="overflow-y-auto overflow-x-hidden bg-darkgray">
                   {children}
                </main>
             )}
